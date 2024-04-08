@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/controleur/Controle.java</name>
+			<type>1</type>
+			<location>/Users/milccorporation/Desktop/BTS SIO SLAM /Bloc 2 - SLAM/Séance 4 - SQ2/Controle.java</location>
+		</link>
+	</linkedResources>
 </projectDescription>
