@@ -1,7 +1,7 @@
 package modele;
 
 /**
- * Gestion de la boule
+ * Gestion de la boule test est ce que ca marche?
  *
  */
 public class Boule extends Objet {
