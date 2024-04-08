@@ -14,8 +14,9 @@ public class Boule extends Objet {
 	/**
 	 * Constructeur
 	 */
-	public Boule() {
-		getClass()
+	public Boule()
+	{
+
 	}
 	
 	/**
