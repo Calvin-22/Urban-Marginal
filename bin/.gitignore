@@ -7,6 +7,15 @@
 /Test$1.class
 /Test$2.class
 /Test.class
-/vue/
+/.classpath
+/.gitignore
+/.project
+/boules/
 /controleur/
+/fonds/
 /modele/
+/murs/
+/outils/
+/personnages/
+/sons/
+/vue/

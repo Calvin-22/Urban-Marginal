@@ -36,7 +36,9 @@ public class EntreeJeu extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public EntreeJeu() {
+	public EntreeJeu() 
+	
+	{
 		setTitle("Urban Marginal");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 374, 195);
@@ -58,34 +60,65 @@ public class EntreeJeu extends JFrame {
 		lblip.setBounds(31, 83, 80, 16);
 		contentPane.add(lblip);
 		
+		
+		/**
+		 * bouton start
+		 */
 		JButton btnStart = new JButton("Start");
-		btnStart.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
+		btnStart.setBounds(230, 20, 117, 29);
+		btnStart.addActionListener(new ActionListener() 
+		{
+			/**
+			 * action du bouton start (vide) 
+			 */
+			public void actionPerformed(ActionEvent arg0) 
+			{
+				
 			}
 		});
-		btnStart.setBounds(230, 20, 117, 29);
 		contentPane.add(btnStart);
 		
+		/**
+		 * bouton connect
+		 */
 		JButton btnConnect = new JButton("Connect");
-		btnConnect.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
+		btnConnect.setBounds(230, 78, 117, 29);
+		btnConnect.addActionListener(new ActionListener() 
+		{
+			/**
+			 * action du bouton connect (vide) 
+			 */
+			public void actionPerformed(ActionEvent e) 
+			{
+				
 			}
 		});
-		btnConnect.setBounds(230, 78, 117, 29);
 		contentPane.add(btnConnect);
 		
+		/**
+		 * bouton exit
+		 */
 		JButton btnExit = new JButton("Exit");
-		btnExit.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
+		btnExit.setBounds(230, 119, 117, 29);
+		btnExit.addActionListener(new ActionListener() 
+		{
+			/**
+			 * action du bouton exit qui ferme la fenêtre mais ne quitte pas l'app'
+			 */
+			public void actionPerformed(ActionEvent e) 
+			{
+				dispose(); 
+				
 			}
 		});
-		btnExit.setBounds(230, 119, 117, 29);
 		contentPane.add(btnExit);
 		
 		txtIP = new JTextField();
 		txtIP.setBounds(95, 78, 130, 26);
 		contentPane.add(txtIP);
 		txtIP.setColumns(10);
+		
+		
 	}
-
+	
 }
