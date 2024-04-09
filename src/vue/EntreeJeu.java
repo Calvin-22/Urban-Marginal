@@ -120,5 +120,4 @@ public class EntreeJeu extends JFrame {
 		
 		
 	}
-	
 }

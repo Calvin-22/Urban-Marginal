@@ -11,6 +11,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import java.awt.Color;
 
 public class ChoixJoueur extends JFrame {
 
@@ -21,7 +22,6 @@ public class ChoixJoueur extends JFrame {
 	private JLabel lblGo;
 	private JLabel lblDroite;
 	private JLabel label_1;
-	private JButton btnNewButton;
 
 	/**
 	 * Launch the application.
@@ -81,10 +81,6 @@ public class ChoixJoueur extends JFrame {
 		lblDroite = new JLabel("");
 		lblDroite.setBounds(299, 148, 31, 38);
 		contentPane.add(lblDroite);
-		
-		btnNewButton = new JButton("New button");
-		btnNewButton.setBounds(139, 142, 117, 29);
-		contentPane.add(btnNewButton);
 		
 		/**
 		 * Ajouter une image (fond d'écran)
